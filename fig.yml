@@ -1,0 +1,7 @@
+ci:
+  build: .
+  ports:
+    - "8090:8090"
+  volumes:
+    - data/jenkins:/srv/jenkins
+
